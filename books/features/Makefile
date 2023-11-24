@@ -16,6 +16,8 @@ jb:
 	# -W make warning treated as errors
 	# -n nitpick generate warnings for all missing links
 	# --keep-going despite -W don't stop delay errors till the end
+	jupyter-book build -v --all -n --keep-going --path-output ${OUTDIR} --config ${PWD}/${CNTDIR}/${NAME}_config.yml --toc ${PWD}/${CNTDIR}/${NAME}_toc.yml ${CNTDIR}
+	cp -r ./_build ../../
 	# have to run twice to copy latex stuff after it's built
 	# not sure how to fix this so works first time
 	jupyter-book build -v --all -n --keep-going --path-output ${OUTDIR} --config ${PWD}/${CNTDIR}/${NAME}_config.yml --toc ${PWD}/${CNTDIR}/${NAME}_toc.yml ${CNTDIR}
@@ -31,12 +33,14 @@ build: ## build the book
 build: fixlinks
 
 pub:
+	@./ghp-nojekyll.sh
 	@ghp-import -n -p --prefix=${NAME} -f _build/html
 	@echo "Published to:"
 	@./ghp-url.sh ${NAME}
 
 clean: 
 	${RM} -r _build
+	${RM} -r ../../_build
 
 help:
 # http://marmelab.com/blog/2016/02/29/auto-documented-makefile.html
