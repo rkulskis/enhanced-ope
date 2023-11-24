@@ -21,13 +21,6 @@ parts:
     - file: workflow_tests/Approval
     - file: workflow_tests/Publish
   - file: env_tests/Environment_Tests
-    sections: 
-    - file: env_tests/Write_permission
-    - file: env_tests/Environmental_Variables
-    - file: env_tests/Network
-    - file: env_tests/Pip_Conda
-    - file: env_tests/Conda_Directory
-    - file: env_tests/Git_ssh
 
 - caption: 'Features Documentation'
   numbered: false
