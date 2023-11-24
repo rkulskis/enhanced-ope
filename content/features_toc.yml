@@ -1,13 +1,13 @@
 format: jb-book
 root: features_intro
-parts:
+parts: 
 - caption: 'OPE Overview'
-  numbered: true
+  numbered: false
   chapters:
-  - file: ope/overview
+  - file: ope/Overview
 
 - caption: 'Testing Documentation'
-  numbered: true
+  numbered: false
   chapters:
   - file: workflow_tests/Container_Tests
     sections: 
@@ -30,20 +30,18 @@ parts:
     - file: env_tests/Git_ssh
 
 - caption: 'Features Documentation'
-  numbered: true
+  numbered: false
   chapters:
   - file: jupytexmagic/Jupytexmagic
     sections: 
-    - file: jupytexmagic/Dependencies
-    - file: jupytexmagic/Porting
+    - file: jupytexmagic/Getting_Started
     - file: jupytexmagic/Extensions
   - file: gradescope_autograder/Gradescope_Autograder
     sections: 
-    - file: gradescope_autograder/Depdendencies
-    - file: gradescope_autograder/Porting
+    - file: gradescope_autograder/Getting_Started
     - file: gradescope_autograder/Extensions
 
 - caption: 'Miscellaneous Documentation'
-  numbered: true
+  numbered: false
   chapters:
   - file: misc/Miscellaneous
