@@ -1,0 +1,49 @@
+format: jb-book
+root: features_intro
+parts:
+- caption: 'OPE Overview'
+  numbered: true
+  chapters:
+  - file: ope/overview
+
+- caption: 'Testing Documentation'
+  numbered: true
+  chapters:
+  - file: workflow_tests/Container_Tests
+    sections: 
+    - file: workflow_tests/Health
+    - file: workflow_tests/Image_version
+    - file: workflow_tests/Jupyter_nb
+    - file: workflow_tests/Package_version
+    - file: workflow_tests/Checksum
+    - file: workflow_tests/Size_and_time
+    - file: workflow_tests/UI
+    - file: workflow_tests/Approval
+    - file: workflow_tests/Publish
+  - file: env_tests/Environment_Tests
+    sections: 
+    - file: env_tests/Write_permission
+    - file: env_tests/Environmental_Variables
+    - file: env_tests/Network
+    - file: env_tests/Pip_Conda
+    - file: env_tests/Conda_Directory
+    - file: env_tests/Git_ssh
+
+- caption: 'Features Documentation'
+  numbered: true
+  chapters:
+  - file: jupytexmagic/Jupytexmagic
+    sections: 
+    - file: jupytexmagic/Dependencies
+    - file: jupytexmagic/Porting
+    - file: jupytexmagic/Extensions
+  - file: gradescope_autograder/Gradescope_Autograder
+    sections: 
+    - file: gradescope_autograder/Depdendencies
+    - file: gradescope_autograder/Porting
+    - file: gradescope_autograder/Extensions
+
+- caption: 'Miscellaneous Documentation'
+  numbered: true
+  chapters:
+  - file: misc/Miscellaneous
