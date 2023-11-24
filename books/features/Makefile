@@ -33,7 +33,7 @@ build: ## build the book
 build: fixlinks
 
 pub:
-	@./ghp-nojekyll.sh
+	@ghp-import -n -p --prefix=${NAME} -f ../../_build/html
 	@ghp-import -n -p --prefix=${NAME} -f _build/html
 	@echo "Published to:"
 	@./ghp-url.sh ${NAME}
