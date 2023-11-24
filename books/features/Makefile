@@ -32,7 +32,6 @@ build: fixlinks
 
 pub:
 	@ghp-import -n -p --prefix=${NAME} -f _build/html
-	@./ghp-nojekyll.sh
 	@echo "Published to:"
 	@./ghp-url.sh ${NAME}
 
