@@ -14,4 +14,5 @@ To contribute to this repository, team members followed these steps:
 
 By working together and dedicating ourselves to documentation, we aimed to provide a valuable resource for the OPE community and align with our commitment to open education and accessible knowledge sharing.
 
+*Introduction written by Riya Deokar*
 <!-- #endregion -->
