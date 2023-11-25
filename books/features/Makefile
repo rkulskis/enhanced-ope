@@ -37,8 +37,7 @@ reset-ghp:
 	git branch -D gh-pages
 
 pub:
-	@ghp-import -n -p --prefix=${NAME} -f ../../_build/html
-	@ghp-import -n -p --prefix=${NAME} -f _build/html
+	@ghp-import -n -p -f _build/html
 	@echo "Published to:"
 	@./ghp-url.sh ${NAME}
 
