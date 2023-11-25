@@ -28,10 +28,10 @@ parts:
   - file: jupytexmagic/Jupytexmagic
     sections: 
     - file: jupytexmagic/Getting_Started
+    - file: jupytexmagic/bro
     - file: jupytexmagic/Extensions
   - file: gradescope_autograder/Gradescope_Autograder
     sections: 
-    - file: gradescope_autograder/Getting_Started
     - file: gradescope_autograder/Extensions
 
 - caption: 'Miscellaneous Documentation'

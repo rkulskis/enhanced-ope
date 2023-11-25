@@ -1,5 +1,5 @@
 <!-- #region -->
-Sprint 5
+Enhanced OPE
 =====================================
 
 In Sprint 5, our team decided to shift our focus towards comprehensive documentation and bringing our collective work into a cohesive format. This effort was part of our ongoing commitment to enhancing the Open Education Project (OPE). We recognized the importance of clear and accessible documentation for both our internal team and the broader community.

@@ -32,6 +32,10 @@ fixlinks: images
 build: ## build the book
 build: fixlinks
 
+reset-ghp:
+	git branch -D gh-pages
+	git push --force origin --delete gh-pages
+
 pub:
 	@ghp-import -n -p --prefix=${NAME} -f ../../_build/html
 	@ghp-import -n -p --prefix=${NAME} -f _build/html
