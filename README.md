@@ -1,5 +1,5 @@
 # Enhanced OPE
-This is documentation written by Ross Mikulskis for the OPE project. Contributions include Jonathan Mikalov's checksum test page and Riya Deokar's introduction page. The documention covers the following topics:
+OPE project documentation written by Ross Mikulskis. Contributions include Jonathan Mikalov's checksum test page and Riya Deokar's introduction page. This documention covers the following topics:
 
 **Testing**: 
 - container testing
