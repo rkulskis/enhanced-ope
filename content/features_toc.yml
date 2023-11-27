@@ -23,6 +23,14 @@ parts:
   - file: env_tests/Environment_Tests
   - file: rise_tests/Rise_Tests
 
+- caption: 'OPE Command Line Tool'
+  numbered: false
+  chapters:  
+  - file: OPE_Command_Line_Tool/install
+  - file: OPE_Command_Line_Tool/instruction
+
+
+  
 - caption: 'Features Documentation'
   numbered: false
   chapters:
