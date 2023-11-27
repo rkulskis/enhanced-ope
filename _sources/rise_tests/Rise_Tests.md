@@ -59,5 +59,5 @@ To effectively test RISE functionality within Jupyter Lab, our process involves 
 
    Successfully completing these steps and comparing the three screenshots without any discrepancies confirms that RISE is functioning  effectively within the Jupyter Lab environment.
 
-#### Test on ROSA
+
 
