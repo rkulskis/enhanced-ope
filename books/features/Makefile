@@ -41,9 +41,7 @@ pub:
 	@echo "Published to:"
 	@./ghp-url.sh ${NAME}
 push:
-    git add .
-    git commit -m "Sync changes"
-    git push origin main
+	./push.sh
 
 clean: 
 	${RM} -r _build
