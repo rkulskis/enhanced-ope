@@ -42,6 +42,12 @@ pub:
 	@./ghp-url.sh ${NAME}
 push:
 	@./push.sh "$(msg)"
+
+sync:
+	@./sync.sh "$(msg)"
+
+
+
 clean: 
 	${RM} -r _build
 	${RM} -r ../../_build

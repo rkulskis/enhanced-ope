@@ -6,7 +6,7 @@
 #######################################################################################
 # Book settings
 title                       : OPE Features # The title of the book. Will be placed in the left navbar.
-author                      : Ross Mikulskis # The author of the book
+author                      : Boston University OPE Group # The author of the book
 copyright                   : "2023"  # Copyright year to be placed in the footer
 logo                        : tesseract_lego.svg # A path to the book logo
 only_build_toc_files        : true
