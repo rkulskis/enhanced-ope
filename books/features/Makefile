@@ -40,6 +40,10 @@ pub:
 	@ghp-import -n -p -f _build/html
 	@echo "Published to:"
 	@./ghp-url.sh ${NAME}
+push:
+    git add .
+    git commit -m "Sync changes"
+    git push origin main
 
 clean: 
 	${RM} -r _build
