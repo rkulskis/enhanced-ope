@@ -41,8 +41,7 @@ pub:
 	@echo "Published to:"
 	@./ghp-url.sh ${NAME}
 push:
-	./push.sh
-
+	@./push.sh "$(msg)"
 clean: 
 	${RM} -r _build
 	${RM} -r ../../_build
