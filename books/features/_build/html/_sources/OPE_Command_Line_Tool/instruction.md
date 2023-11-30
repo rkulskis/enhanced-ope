@@ -1,4 +1,4 @@
-## Instruction Yuxi
+## Instruction
 
 ### General
 
