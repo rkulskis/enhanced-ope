@@ -21,8 +21,15 @@ parts:
     - file: workflow_tests/Approval
     - file: workflow_tests/Publish
   - file: env_tests/Environment_Tests
-  - file: rise_tests/Rise_Tests.md
 
+- caption: 'OPE Command Line Tool'
+  numbered: false
+  chapters:  
+  - file: OPE_Command_Line_Tool/install
+  - file: OPE_Command_Line_Tool/instruction
+
+
+  
 - caption: 'Features Documentation'
   numbered: false
   chapters:

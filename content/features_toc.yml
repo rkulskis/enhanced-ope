@@ -21,7 +21,6 @@ parts:
     - file: workflow_tests/Approval
     - file: workflow_tests/Publish
   - file: env_tests/Environment_Tests
-  - file: rise_tests/Rise_Tests
 
 - caption: 'OPE Command Line Tool'
   numbered: false
