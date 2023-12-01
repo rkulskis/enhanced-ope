@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
-    <title>Approval &#8212; OPE Features</title>
+    <title>Setting up Github Actions and Quay.io &#8212; OPE Features</title>
   
   
   
@@ -63,11 +63,11 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="../_static/sphinx-thebe.js"></script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'workflow_tests/Approval';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'github_actions/gh';</script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Publish" href="Publish.html" />
-    <link rel="prev" title="UI" href="UI.html" />
+    <link rel="next" title="Miscellaneous" href="../misc/Miscellaneous.html" />
+    <link rel="prev" title="Extensions" href="../gradescope_autograder/Extensions.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -169,17 +169,17 @@ const thebe_selector_output = ".output, .cell_output"
             </li>
         </ul>
         <p aria-level="2" class="caption" role="heading"><span class="caption-text">Testing Documentation</span></p>
-<ul class="current nav bd-sidenav">
-<li class="toctree-l1 current active has-children"><a class="reference internal" href="Container_Tests.html">Container_Tests</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="Health.html">Health</a></li>
-<li class="toctree-l2"><a class="reference internal" href="Image_version.html">Image_version</a></li>
-<li class="toctree-l2"><a class="reference internal" href="Jupyter_nb.html">Jupyter_Notebook</a></li>
-<li class="toctree-l2"><a class="reference internal" href="Package_version.html">Package_version</a></li>
-<li class="toctree-l2"><a class="reference internal" href="Checksum.html">Checksum</a></li>
-<li class="toctree-l2"><a class="reference internal" href="Size_and_time.html">Size_and_time</a></li>
-<li class="toctree-l2"><a class="reference internal" href="UI.html">UI</a></li>
-<li class="toctree-l2 current active"><a class="current reference internal" href="#">Approval</a></li>
-<li class="toctree-l2"><a class="reference internal" href="Publish.html">Publish</a></li>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1 has-children"><a class="reference internal" href="../workflow_tests/Container_Tests.html">Container_Tests</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../workflow_tests/Health.html">Health</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../workflow_tests/Image_version.html">Image_version</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../workflow_tests/Jupyter_nb.html">Jupyter_Notebook</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../workflow_tests/Package_version.html">Package_version</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../workflow_tests/Checksum.html">Checksum</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../workflow_tests/Size_and_time.html">Size_and_time</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../workflow_tests/UI.html">UI</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../workflow_tests/Approval.html">Approval</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../workflow_tests/Publish.html">Publish</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../env_tests/Environment_Tests.html">Environment_Tests</a></li>
@@ -191,7 +191,7 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l1"><a class="reference internal" href="../OPE_Command_Line_Tool/instruction.html">Instruction</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Features Documentation</span></p>
-<ul class="nav bd-sidenav">
+<ul class="current nav bd-sidenav">
 <li class="toctree-l1 has-children"><a class="reference internal" href="../jupytexmagic/Jupytexmagic.html">Jupytexmagic</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="../jupytexmagic/Getting_Started.html">Getting_Started</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../jupytexmagic/Extensions.html">Extensions</a></li>
@@ -201,7 +201,7 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l2"><a class="reference internal" href="../gradescope_autograder/Extensions.html">Extensions</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../github_actions/gh.html">Setting up Github Actions and Quay.io</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Setting up Github Actions and Quay.io</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Miscellaneous Documentation</span></p>
 <ul class="nav bd-sidenav">
@@ -260,7 +260,7 @@ const thebe_selector_output = ".output, .cell_output"
       
       
       
-      <li><a href="https://jupyterhub-opf-jupyterhub.apps.smaug.na.operate-first.cloud/hub/user-redirect/git-pull?repo=https%3A//github.com/rkulskis/enhanced-ope&urlpath=lab/tree/enhanced-ope/content/workflow_tests/Approval.ipynb&branch=main" target="_blank"
+      <li><a href="https://jupyterhub-opf-jupyterhub.apps.smaug.na.operate-first.cloud/hub/user-redirect/git-pull?repo=https%3A//github.com/rkulskis/enhanced-ope&urlpath=lab/tree/enhanced-ope/content/github_actions/gh.ipynb&branch=main" target="_blank"
    class="btn btn-sm dropdown-item"
    title="Launch onJupyterHub"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -308,7 +308,7 @@ const thebe_selector_output = ".output, .cell_output"
       
       
       
-      <li><a href="https://github.com/rkulskis/enhanced-ope/edit/main/content/workflow_tests/Approval.ipynb" target="_blank"
+      <li><a href="https://github.com/rkulskis/enhanced-ope/edit/main/content/github_actions/gh.ipynb" target="_blank"
    class="btn btn-sm btn-source-edit-button dropdown-item"
    title="Suggest edit"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -325,7 +325,7 @@ const thebe_selector_output = ".output, .cell_output"
       
       
       
-      <li><a href="https://github.com/rkulskis/enhanced-ope/issues/new?title=Issue%20on%20page%20%2Fworkflow_tests/Approval.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/rkulskis/enhanced-ope/issues/new?title=Issue%20on%20page%20%2Fgithub_actions/gh.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -355,7 +355,7 @@ const thebe_selector_output = ".output, .cell_output"
       
       
       
-      <li><a href="../_sources/workflow_tests/Approval.ipynb" target="_blank"
+      <li><a href="../_sources/github_actions/gh.ipynb" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -435,7 +435,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Approval</h1>
+    <h1>Setting up Github Actions and Quay.io</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -449,8 +449,33 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article" role="main">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="approval">
-<h1>Approval<a class="headerlink" href="#approval" title="Permalink to this heading">#</a></h1>
+  <section class="tex2jax_ignore mathjax_ignore" id="setting-up-github-actions-and-quay-io">
+<h1>Setting up Github Actions and <a class="reference external" href="http://Quay.io">Quay.io</a><a class="headerlink" href="#setting-up-github-actions-and-quay-io" title="Permalink to this heading">#</a></h1>
+<p>Using the official OPE tool, you can easily create, update, manage, and publish OPE projects from the command line. Follow the instructions to install this tool <a class="reference external" href="https://github.com/OPEFFORT/tools">here</a>.</p>
+<ol class="arabic simple">
+<li><p>In your github, create a new fork of <a class="reference external" href="https://github.com/OPEFFORT/OPE-Testing/tree/container-base-ope">OPEEFFORT testing repository</a></p></li>
+<li><p>Go to your fork and click on settings. Set ‘container-base-ope’ as the default branch</p></li>
+<li><p>Log in to your <a class="reference external" href="http://quay.io">quay.io</a> and link your <a class="reference external" href="http://quay.io">quay.io</a> with your Github account</p></li>
+<li><p>Create a new repo in <a class="reference external" href="http://quay.io">quay.io</a>.</p></li>
+<li><p>Enter your repo name, select “public”, select “Link to a GitHub Repository Push”, then click on “Create”</p></li>
+<li><p>Then select your name in the organization section, select OPE-Testing in the Select Repository section
+Select Trigger only on branches and tags matching a regular expression in Configure Trigger section
+Select Tag manifest with the branch or tag name and Add latest tag if on default branch in the Configure Tagging section
+Select location of Dockerfile to build when trigger is involed, ex: /base/Dockerfile. Make sure to double-check that “container-base-ope” is your default branch
+If setup is succesful, you should see a Ready to go! page</p></li>
+<li><p>CLick continue, <a class="reference external" href="http://Quay.io">Quay.io</a> will generate a SSH key. You don’t have to do anything. <a class="reference external" href="http://Quay.io">Quay.io</a> will automatically set up in your GitHub repo
+Let’s go back to the Github Repository you just forked. Under base folder, change the following file to your information:
+(1) ope-book -&gt; This is your <a class="reference external" href="http://quay.io">quay.io</a> repo name
+(2) ope_book_user -&gt; this is your <a class="reference external" href="http://quay.io">quay.io</a> account name
+(3) ope_registry_user -&gt; this is also your <a class="reference external" href="http://quay.io">quay.io</a> account name
+(4) Dockerfile: make sure you copy from
+<a class="github reference external" href="https://github.com/kevinge7/OPE-Testing/blob/container-base-ope/base/Dockerfile">kevinge7/OPE-Testing</a>
+Under .github/workflows folder: make sure you copy from <a class="github reference external" href="https://github.com/kevinge7/OPE-Testing/blob/container-base-ope/.github/workflows/Master_Container_Test.yaml">kevinge7/OPE-Testing</a>
+Now copy everything in Master_container_test.yaml paste the into Github Action.</p></li>
+<li><p>Now in your forked repo, go to settings, and click on the Actions tab in the left sidebar
+Create your secrets: The variable name should be exactly the same as the  picture shows. The value should be your <a class="reference external" href="http://quay.io">quay.io</a> account name and the password you use to log in to <a class="reference external" href="http://quay.io">quay.io</a>.
+ALL DONE! Now you can run your Github Action</p></li>
+</ol>
 </section>
 
     <script type="text/x-thebe-config">
@@ -466,7 +491,7 @@ document.write(`
         },
         kernelOptions: {
             name: "python3",
-            path: "./workflow_tests"
+            path: "./github_actions"
         },
         predefinedOutput: true
     }
@@ -484,20 +509,20 @@ document.write(`
                   <!-- Previous / next buttons -->
 <div class="prev-next-area">
     <a class="left-prev"
-       href="UI.html"
+       href="../gradescope_autograder/Extensions.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">UI</p>
+        <p class="prev-next-title">Extensions</p>
       </div>
     </a>
     <a class="right-next"
-       href="Publish.html"
+       href="../misc/Miscellaneous.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Publish</p>
+        <p class="prev-next-title">Miscellaneous</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>

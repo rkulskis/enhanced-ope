@@ -8,4 +8,3 @@ This tool is designed to facilitate the management of projects within the Open E
 2. Ensure you have Git installed, as it is required for several functions.
 3. **Command**: In the directory, run `./install.sh`
 
-##### Written by Yuxi Ge

@@ -40,4 +40,3 @@
 - **Description**: Updates and rebases changes from the OPE framework.
 - **Usage**: `ope update`
 - No arguments required. 
-##### Written by Yuxi Ge
