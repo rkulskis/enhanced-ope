@@ -27,7 +27,7 @@ parts:
   chapters:  
   - file: OPE_Command_Line_Tool/install
   - file: OPE_Command_Line_Tool/instruction
-  - file: OPE_Command_Line_Tool/quiz.ipynb
+  - file: OPE_Command_Line_Tool/quiz
 
   
 
